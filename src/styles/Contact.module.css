@@ -1,0 +1,176 @@
+
+.contact_form {
+    margin: 0;
+    padding: 100px 0;
+    display: block;
+
+}
+
+.contact_form_wrapper {
+
+
+}
+
+.form_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.form_left {
+    max-width: 580px;
+}
+
+.form_left > img {
+    margin: 0;
+    max-width: 580px;
+    border-radius: 10px;
+}
+
+.form_right {
+    max-width: 570px;
+}
+
+.form_right > div {
+    margin-bottom: 20px;
+}
+
+.form_right_description {
+
+}
+
+.form_right_contacts {
+
+}
+
+.form_right_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_right_links > a {
+    display: flex;
+    margin-bottom: 10px;
+    color: black;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.form_right_links > a:hover {
+    color: #94c11e;
+}
+
+.form_right_links > a > img {
+    margin-right: 10px;
+}
+
+.form_right_form_block {
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.25);
+}
+
+.form_right_form_block > div:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.form_right_top {
+    display: flex;
+    align-items: center;
+}
+
+.form_right_top > img {
+    margin-right: 10px;
+}
+
+.form_text {
+    max-width: 385px;
+}
+
+.form_right_bottom {
+
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.form > p {
+    margin: 0;
+}
+
+.form > p > span {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.form > p > span > input {
+    outline: none;
+    padding: 12px;
+    border: 1px solid #1f5885;
+    border-radius: 6px;
+    color: #666;
+}
+
+.form > p > span:not(:last-child) {
+    margin-right: 12px;
+}
+
+.form_control_name_wrap {
+
+}
+
+.form_control_name_input {
+
+}
+
+.form_control_phone_wrap {
+
+}
+
+.form_control_phone_input {
+
+}
+
+.form_button {
+    padding: 14px;
+    width: 140px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #1f5885;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.form_button:hover{
+    background-color: #94c11e;
+}
+
+.form_conditions {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: right;
+    width: 100%;
+    color: #666;
+}
+
+.form_conditions > a {
+    margin-left: 10px;
+    text-decoration: underline;
+    color: #94c11e;
+    transition: all 0.2s ease-in-out;
+}
+
+.form_conditions > a:hover {
+    color: #1f5885;
+}

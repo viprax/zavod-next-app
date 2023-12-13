@@ -1,0 +1,151 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #273341;
+    height: 70px;
+    color: white;
+    z-index: 999;
+    padding: 10px 0;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.menu_wrapper {
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    position: relative;
+
+}
+
+.menu_item > button {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.menu_item:hover {
+    background-color: #94c11e;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu_item:hover > .submenu {
+    display: block;
+}
+
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    white-space: nowrap;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 0 4px 4px rgba(0,0,0,.25);
+    border-radius: 5px;
+    min-width: 193px;
+    display: none;
+}
+
+.submenu > li {
+    padding: 10px;
+
+}
+
+.submenu > li:hover {
+    background-color: #eee;
+    transition: all 0.2s ease-in-out;
+}
+
+.submenu > li > a {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+
+}
+
+.submenu > li:not(:last-child){
+    border-bottom: 1px solid #eee;
+}
+
+.menu_item > svg {
+    margin-left: 6px;
+}
+
+.search_wrapper {
+    margin-left: 12px;
+}
+
+
+
+.search_icon {
+    display: flex;
+    align-items: center;
+}
+
+.search_icon:hover {
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+
+.messengers_wrapper {
+    margin-left: 100px;
+}
+
+.messengers_wrapper > a {
+    text-decoration: none;
+    margin-right: 6px;
+}
+
+.messengers_wrapper > a > img:hover {
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.contacts_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 50px;
+
+}
+
+.contacts_wrapper > a {
+}
+
+.contacts_wrapper > p {
+    font-weight: 600;
+    margin: 0 0 6px 0;
+
+}
+
+.contacts_wrapper > a {
+    color: white;
+    text-decoration: none;
+}
+
+.contacts_wrapper > a:hover {
+    color: #94c11e;
+    transition: all 0.2s ease-in-out;
+}
