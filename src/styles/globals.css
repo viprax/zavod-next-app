@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     padding-top: 70px;
     min-height: 100vh;
+    color: #222;
 }
 
 div {
@@ -61,4 +62,9 @@ h4 {
 
 h5 {
     margin: 0;
+}
+
+.selected > a {
+    background-color: #94c11e !important;
+
 }

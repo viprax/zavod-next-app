@@ -26,16 +26,16 @@ const Footer = () => {
                                 О компании
                             </Link>
                             <Link href='/'>
-                                О компании
+                                Доставка
                             </Link>
                             <Link href='/'>
-                                О компании
+                                Вакансии
                             </Link>
                             <Link href='/'>
-                                О компании
+                                Новости
                             </Link>
                             <Link href='/'>
-                                О компании
+                                Оферта
                             </Link>
                         </div>
                     </div>
@@ -45,19 +45,19 @@ const Footer = () => {
                         </p>
                         <div className={styles.footer_container_top_item_links}>
                             <Link href='/'>
-                                О компании
+                                Для бензина
                             </Link>
                             <Link href='/'>
-                                О компании
+                                Для дизельного топлива
                             </Link>
                             <Link href='/'>
-                                О компании
+                                Для тёмных нефтепродуктов
                             </Link>
                             <Link href='/'>
-                                О компании
+                                Нефтехимия
                             </Link>
                             <Link href='/'>
-                                О компании
+                                Промышленная химия
                             </Link>
                         </div>
                     </div>

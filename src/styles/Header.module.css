@@ -34,24 +34,30 @@
     align-items: center;
     border-radius: 6px;
     position: relative;
+    transition: all 0.2s ease-in-out;
+
 
 }
 
-.menu_item > button {
+.menu_item > a > button {
     background-color: transparent;
     color: white;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 
 }
 
 .menu_item:hover {
     background-color: #94c11e;
-    transition: all 0.2s ease-in-out;
 }
 
 .menu_item:hover > .submenu {
     display: block;
+}
+
+.menu_item:not(:last-child) {
+    margin-right: 12px;
 }
 
 
@@ -70,12 +76,11 @@
 
 .submenu > li {
     padding: 10px;
-
+    transition: all 0.2s ease-in-out;
 }
 
 .submenu > li:hover {
     background-color: #eee;
-    transition: all 0.2s ease-in-out;
 }
 
 .submenu > li > a {
@@ -91,6 +96,21 @@
 
 .menu_item > svg {
     margin-left: 6px;
+}
+
+.catalog_menu {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0,0,0, .25);
+    top: 100%;
+    left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-width: 990px;
+    padding: 10px;
+    z-index: 999;
+    display: none;
 }
 
 .search_wrapper {
@@ -118,9 +138,13 @@
     margin-right: 6px;
 }
 
+.messengers_wrapper > a > img {
+    transition: all 0.3s ease-in-out;
+
+}
+
 .messengers_wrapper > a > img:hover {
     border-radius: 50%;
-    transition: all 0.3s ease-in-out;
 }
 
 .contacts_wrapper {
@@ -143,9 +167,10 @@
 .contacts_wrapper > a {
     color: white;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .contacts_wrapper > a:hover {
     color: #94c11e;
-    transition: all 0.2s ease-in-out;
 }

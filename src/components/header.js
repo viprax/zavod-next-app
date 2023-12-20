@@ -18,10 +18,10 @@ const Header = () => {
               <div className={styles.menu_wrapper}>
                   <ul className={styles.menu}>
                       <li
-                          
                           className={styles.menu_item}>
-
-                          <button>Компания</button>
+                          <Link href={"/"}>
+                              <button>Компания</button>
+                          </Link>
                           <IoIosArrowDown/>
                           <ul className={styles.submenu}>
                               <li>
@@ -30,34 +30,46 @@ const Header = () => {
                                   </Link>
                               </li>
                               <li>
-                                  <Link href='/'>
+                                  <Link href='/offer'>
                                       Оферта
                                   </Link>
                               </li>
                               <li>
-                                  <Link href='/'>
+                                  <Link href='/delivery'>
                                       Доставка
                                   </Link>
                               </li>
                               <li>
-                                  <Link href='/'>
+                                  <Link href='/requisites'>
                                       Реквизиты
                                   </Link>
                               </li>
                           </ul>
                       </li>
                       <li className={styles.menu_item}>
-                          <button>Каталог продукции</button>
+                          <Link href={"/"}>
+                              <button>Каталог продукции</button>
+                          </Link>
                           <IoIosArrowDown/>
+                          <div className={styles.catalog_menu}>
+                              <div></div>
+                              <div></div>
+                          </div>
                       </li>
                       <li className={styles.menu_item}>
-                          <button>Новости</button>
+                          <Link href={"/news"}>
+                              <button>Новости</button>
+                          </Link>
                       </li>
                       <li className={styles.menu_item}>
-                          <button>Вакансии</button>
+                          <Link href={"/vacancies"}>
+                              <button>Вакансии</button>
+                          </Link>
                       </li>
                       <li className={styles.menu_item}>
-                          <button>Контакты</button>
+                          <Link href={"/contacts"}>
+                              <button>Контакты</button>
+                          </Link>
                       </li>
                   </ul>
               </div>

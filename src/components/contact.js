@@ -10,7 +10,7 @@ const Contact = () => {
             <section className={styles.contact_form}>
                 <div className={styles.form_wrapper}>
                     <div className={styles.form_left}>
-                        <Image src="/zavod.png" width={580} height={380} alt='завод'/>
+                        <Image src="https://zavodpr.ru/wp-content/uploads/2023/02/zavod-dlya-bloka-kontakty-itog.png" width={580} height={380} alt='завод'/>
                     </div>
                     <div className={styles.form_right}>
                         <div className={styles.form_right_description}>

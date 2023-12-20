@@ -26,12 +26,11 @@
 }
 
 .footer_top_item_slogan_image {
-
+    transition: all 0.2s ease-in-out;
 }
 
 .footer_top_item_slogan_image:hover {
     transform: scale(110%);
-    transition: all 0.2s ease-in-out;
 }
 
 .footer_container_top_item_slogan {
@@ -53,6 +52,8 @@
     color: white;
     display: flex;
     margin-bottom: 12px;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .footer_container_top_item_links > a > img {
@@ -71,7 +72,6 @@
 
 .footer_container_top_item_links > a:hover {
     color: #94c11e;
-    transition: all 0.2s ease-in-out;
 }
 
 .footer_container_top_item_links > a:not(:last-child) {

@@ -1,4 +1,23 @@
 .wrap_container > h1 {
     text-align: center;
     text-transform: uppercase;
+    margin: 50px 0;
+    color: #1f5885;
+}
+
+.wrap_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    max-width: 1200px;
+    min-height: 600px;
+    align-items: center;
+    margin: 0 auto;
 }
